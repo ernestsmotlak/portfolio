@@ -1,4 +1,5 @@
 import React from "react";
+import reactLogo from '../images/logo512.png'
 
 const HorizontalGrid = () => {
   return (
@@ -10,7 +11,7 @@ const HorizontalGrid = () => {
       <div class="container text-center border" style={{height: '300px', marginTop: '2rem'}}>
         <div class="row" style={{marginTop: '2rem'}}>
           <div class="col">
-          <img src="..." class="img-fluid" alt="React Logo"></img>
+          <img src={reactLogo} class="img-fluid" alt="React Logo"></img>
           </div>
           <div class="col">
           <img src="..." class="img-fluid" alt="..."></img>
