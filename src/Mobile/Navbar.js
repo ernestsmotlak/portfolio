@@ -23,29 +23,28 @@ const Navbar = () => {
             className="collapse navbar-collapse justify-content-center"
             id="navbarSupportedContent"
           >
-            <ul className="navbar-nav">
-              <a className="navbar-brand me-auto" href="#">
+            <ul className="navbar-nav ps-4 pe-4 fs-5">
+              <a className="nav-link active" href="#">
                 Navbar
               </a>
-              <li className="nav-item">
+              <li className="nav-item ps-4 pe-4">
                 <a className="nav-link active" aria-current="page" href="#">
                   Home
                 </a>
               </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
+              <li className="nav-item ps-4 pe-4">
+                <a className="nav-link active" href="#">
                   Link
                 </a>
               </li>
-              <li className="nav-item">
-                <a className="nav-link" href="#">
+              <li className="nav-item ps-4 pe-4">
+                <a className="nav-link active" href="#">
                   Link
                 </a>
               </li>
-              
-              <li className="nav-item">
-                <a className="nav-link disabled" aria-disabled="true">
-                  ti si disabled, majkemi
+              <li className="nav-item bg-secondary-subtle ps-4 pe-4">
+                <a className="nav-link active" href="#">
+                  Link
                 </a>
               </li>
             </ul>
