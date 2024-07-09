@@ -10,7 +10,7 @@ const HorizontalGrid = () => {
       <div class="container text-center border" style={{height: '300px', marginTop: '2rem'}}>
         <div class="row" style={{marginTop: '2rem'}}>
           <div class="col">
-          <img src="..." class="img-fluid" alt="..."></img>
+          <img src="..." class="img-fluid" alt="React Logo"></img>
           </div>
           <div class="col">
           <img src="..." class="img-fluid" alt="..."></img>
