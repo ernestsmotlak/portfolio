@@ -3,11 +3,11 @@ import React from "react";
 const Navbar = () => {
   return (
     <div>
-      <nav className="navbar navbar-expand-lg bg-body-tertiary">
+      <nav
+        className="navbar navbar-expand-lg bg-body-tertiary border"
+        style={{ height: "75px" }}
+      >
         <div className="container-fluid d-flex justify-content-center">
-          {/* <a className="navbar-brand me-auto" href="#">
-            Navbar
-          </a> */}
           <button
             className="navbar-toggler"
             type="button"
@@ -37,34 +37,12 @@ const Navbar = () => {
                   Link
                 </a>
               </li>
-              <li className="nav-item dropdown">
-                <a
-                  className="nav-link dropdown-toggle"
-                  href="#"
-                  role="button"
-                  data-bs-toggle="dropdown"
-                  aria-expanded="false"
-                >
-                  Dropdown
+              <li className="nav-item">
+                <a className="nav-link" href="#">
+                  Link
                 </a>
-                <ul className="dropdown-menu">
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Action
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Another action
-                    </a>
-                  </li>
-                  <li>
-                    <a className="dropdown-item" href="#">
-                      Something else here
-                    </a>
-                  </li>
-                </ul>
               </li>
+              
               <li className="nav-item">
                 <a className="nav-link disabled" aria-disabled="true">
                   ti si disabled, majkemi
