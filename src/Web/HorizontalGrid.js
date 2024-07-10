@@ -1,34 +1,38 @@
 import React from "react";
-import reactLogo from '../images/logo512.png'
+import { TiHtml5 } from "react-icons/ti";
+import { BiSolidFileCss } from "react-icons/bi";
+import { RiJavascriptFill } from "react-icons/ri";
+import { FaReact } from "react-icons/fa6";
+import { IoLogoNodejs } from "react-icons/io5";
 
 const HorizontalGrid = () => {
   return (
     <div
       style={{ height: "600px", paddingTop: "5rem" }}
-    //   className="bg-info-subtle"
+      //   className="bg-info-subtle"
     >
-        Technologies
-      <div class="container text-center border" style={{height: '300px', marginTop: '2rem'}}>
-        <div class="row" style={{marginTop: '2rem'}}>
+      Technologies
+      <div
+        class="container text-center border w-75"
+        // style={{ height: "300px", marginTop: "2rem" }}
+      >
+        <div class="row" style={{ marginTop: "2rem" }}>
           <div class="col">
-          <img src={reactLogo} class="img-fluid" alt="React Logo"></img>
+            <TiHtml5 style={{ width: "200px", height: "200px" }} />
           </div>
           <div class="col">
-          <img src="..." class="img-fluid" alt="..."></img>
+            <BiSolidFileCss style={{ width: "175px", height: "200px" }} />
           </div>
           <div class="col">
-          <img src="..." class="img-fluid" alt="..."></img>
+            <RiJavascriptFill style={{ width: "175px", height: "200px" }} />
           </div>
         </div>
-        <div class="row" style={{marginTop: '10rem'}}>
+        <div class="row w-75" style={{ marginTop: "2rem", margin: "0 auto" }}>
           <div class="col">
-          <img src="..." class="img-fluid" alt="..."></img>
+            <FaReact style={{ width: "175px", height: "200px" }} />
           </div>
           <div class="col">
-          <img src="..." class="img-fluid" alt="..."></img>
-          </div>
-          <div class="col">
-          <img src="..." class="img-fluid" alt="..."></img>
+            <IoLogoNodejs style={{ width: "175px", height: "200px" }} />
           </div>
         </div>
       </div>
