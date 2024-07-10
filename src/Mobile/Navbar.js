@@ -25,16 +25,11 @@ const Navbar = () => {
           >
             <ul className="navbar-nav ps-4 pe-4 fs-5">
               <a className="nav-link active" href="#">
-                Navbar
+                Description
               </a>
               <li className="nav-item ps-4 pe-4">
                 <a className="nav-link active" aria-current="page" href="#">
-                  Home
-                </a>
-              </li>
-              <li className="nav-item ps-4 pe-4">
-                <a className="nav-link active" href="#">
-                  Link
+                  Technologies
                 </a>
               </li>
               <li className="nav-item ps-4 pe-4">
@@ -44,7 +39,7 @@ const Navbar = () => {
               </li>
               <li className="nav-item bg-secondary-subtle ps-4 pe-4">
                 <a className="nav-link active" href="#">
-                  Link
+                  My Projects
                 </a>
               </li>
             </ul>
