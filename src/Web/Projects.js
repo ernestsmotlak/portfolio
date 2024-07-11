@@ -112,39 +112,32 @@ const Projects = () => {
       </div>
       <br />
       <ol
-        class="list-group list-group-numbered mx-auto"
+        class="list-group list-group-numbered mx-auto mb-5"
         style={{ width: "30rem" }}
       >
         <li class="list-group-item d-flex justify-content-between align-items-start">
           <div class="ms-2 me-auto">
             <div class="fw-bold">
-              <a href="https://weather-api-app-orpin.vercel.app/">
-                Weather App
-              </a>
+              Sentimental analysis of tweets and short texts.
             </div>
-            A simple weather app made with&nbsp;
-            <a href="https://www.weatherapi.com/">Weather api.</a>
+            Project to determine sentimental value of short text in Slovenian,
+            Serbian, Croatian and Bosnian language.
             <ul>
-              <li>React</li>
-              <li>Node.js</li>
-              <li>Bootstrap</li>
+              <li>Java</li>
+              <li>Python</li>
             </ul>
           </div>
           <span class="badge text-bg-primary rounded-pill">14</span>
         </li>
-        <li class="list-group-item d-flex justify-content-between align-items-start">
+
+        <li class="list-group-item d-flex justify-content-between align-items-start mt-2 border rounded">
           <div class="ms-2 me-auto">
             <div class="fw-bold">
-              <a href="https://weather-api-app-orpin.vercel.app/">
-                Weather App
-              </a>
+                Convertion App
             </div>
-            A simple weather app made with&nbsp;
-            <a href="https://www.weatherapi.com/">Weather api.</a>
+            Simple app for converting the value of Serbian Dinar to Euro.
             <ul>
-              <li>React</li>
-              <li>Node.js</li>
-              <li>Bootstrap</li>
+              <li>Swift</li>
             </ul>
           </div>
           <span class="badge text-bg-primary rounded-pill">14</span>
