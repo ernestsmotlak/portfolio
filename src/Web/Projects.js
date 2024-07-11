@@ -14,13 +14,16 @@ const Projects = () => {
         class="list-group list-group-numbered mx-auto"
         style={{ width: "30rem" }}
       >
-        <li class="list-group-item d-flex justify-content-between align-items-start">
+        <li class="list-group-item d-flex justify-content-between align-items-start mb-2 border rounded">
           <div class="ms-2 me-auto">
-            <div class="fw-bold">Chat App</div>
+            <div class="fw-bold">
+              <a href="http://84.247.184.37:3021/">Chat App</a>
+            </div>
             Dynamic real-time messaging app.
             <ul>
               <li>React</li>
               <li>Node.js</li>
+              <li>Socket.io</li>
               <li>Bootstrap</li>
             </ul>
           </div>
@@ -28,9 +31,11 @@ const Projects = () => {
           <span class="badge text-bg-primary rounded-pill">14</span>
           <span class="badge text-bg-primary rounded-pill">14</span>
         </li>
-        <li class="list-group-item d-flex justify-content-between align-items-start">
+        <li class="list-group-item d-flex justify-content-between align-items-start mb-2 border rounded">
           <div class="ms-2 me-auto">
-            <div class="fw-bold">Timetable App</div>
+            <div class="fw-bold">
+              <a href="http://84.247.184.37:3002/">Timetable App</a>
+            </div>
             Bus transport app for the city of Koper.
             <ul>
               <li>React</li>
@@ -40,13 +45,28 @@ const Projects = () => {
           </div>
           <span class="badge text-bg-primary rounded-pill">14</span>
         </li>
-        <li class="list-group-item d-flex justify-content-between align-items-start">
+        <li class="list-group-item d-flex justify-content-between align-items-start mb-2 border rounded">
           <div class="ms-2 me-auto">
-            <div class="fw-bold">To Do App</div>
+            <div class="fw-bold">
+              <a href="http://84.247.184.37:3006/">To Do App</a>
+            </div>
             Task management tool for organizing your daily tasks.
             <ul>
               <li>React</li>
               <li>Node.js</li>
+              <li>Bootstrap</li>
+            </ul>
+          </div>
+          <span class="badge text-bg-primary rounded-pill">14</span>
+        </li>
+        <li class="list-group-item d-flex justify-content-between align-items-start mb-2 border rounded">
+          <div class="ms-2 me-auto">
+            <div class="fw-bold">Rock Paper Scissors Game</div>A simple Rock
+            Paper Scissors game made with Socket.io.
+            <ul>
+              <li>React</li>
+              <li>Node.js</li>
+              <li>Socket.io</li>
               <li>Bootstrap</li>
             </ul>
           </div>
@@ -67,22 +87,65 @@ const Projects = () => {
       >
         <li class="list-group-item d-flex justify-content-between align-items-start">
           <div class="ms-2 me-auto">
-            <div class="fw-bold">Subheading</div>
-            Content for list item
+            <div class="fw-bold">
+              <a href="https://weather-api-app-orpin.vercel.app/">
+                Weather App
+              </a>
+            </div>
+            A simple weather app made with&nbsp;
+            <a href="https://www.weatherapi.com/">Weather api.</a>
+            <ul>
+              <li>React</li>
+              <li>Node.js</li>
+              <li>Bootstrap</li>
+            </ul>
+          </div>
+          <span class="badge text-bg-primary rounded-pill">14</span>
+        </li>
+      </ol>
+
+      <div
+        className="fs-2 text-center"
+        style={{ marginTop: "5rem", marginBottom: "2rem" }}
+      >
+        OTHER
+      </div>
+      <br />
+      <ol
+        class="list-group list-group-numbered mx-auto"
+        style={{ width: "30rem" }}
+      >
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+          <div class="ms-2 me-auto">
+            <div class="fw-bold">
+              <a href="https://weather-api-app-orpin.vercel.app/">
+                Weather App
+              </a>
+            </div>
+            A simple weather app made with&nbsp;
+            <a href="https://www.weatherapi.com/">Weather api.</a>
+            <ul>
+              <li>React</li>
+              <li>Node.js</li>
+              <li>Bootstrap</li>
+            </ul>
           </div>
           <span class="badge text-bg-primary rounded-pill">14</span>
         </li>
         <li class="list-group-item d-flex justify-content-between align-items-start">
           <div class="ms-2 me-auto">
-            <div class="fw-bold">Subheading</div>
-            Content for list item
-          </div>
-          <span class="badge text-bg-primary rounded-pill">14</span>
-        </li>
-        <li class="list-group-item d-flex justify-content-between align-items-start">
-          <div class="ms-2 me-auto">
-            <div class="fw-bold">Subheading</div>
-            Content for list item
+            <div class="fw-bold">
+              <a href="https://weather-api-app-orpin.vercel.app/">
+                Weather App
+              </a>
+            </div>
+            A simple weather app made with&nbsp;
+            <a href="https://www.weatherapi.com/">Weather api.</a>
+            <ul>
+              <li>React</li>
+              <li>Node.js</li>
+              <li>Bootstrap</li>
+            </ul>
           </div>
           <span class="badge text-bg-primary rounded-pill">14</span>
         </li>
