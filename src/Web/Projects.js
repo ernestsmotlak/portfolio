@@ -1,4 +1,5 @@
 import React from "react";
+import { FaGithub } from "react-icons/fa";
 
 const Projects = () => {
   return (
@@ -27,9 +28,7 @@ const Projects = () => {
               <li>Bootstrap</li>
             </ul>
           </div>
-          <span class="badge text-bg-primary rounded-pill">14</span>
-          <span class="badge text-bg-primary rounded-pill">14</span>
-          <span class="badge text-bg-primary rounded-pill">14</span>
+          <FaGithub className="fs-4 text-success" />
         </li>
         <li class="list-group-item d-flex justify-content-between align-items-start mb-2 border rounded">
           <div class="ms-2 me-auto">
@@ -102,6 +101,23 @@ const Projects = () => {
           </div>
           <span class="badge text-bg-primary rounded-pill">14</span>
         </li>
+        <li class="list-group-item d-flex justify-content-between align-items-start">
+          <div class="ms-2 me-auto">
+            <div class="fw-bold">
+              <a href="http://84.247.184.37:3010/TimetableClean">
+                Calculation App
+              </a>
+            </div>
+            A collection of mini projects made in React.
+            <ul>
+              <li>
+                A simple program for calculating the ammount of hours worked
+                from a given string.
+              </li>
+            </ul>
+          </div>
+          <span class="badge text-bg-primary rounded-pill">14</span>
+        </li>
       </ol>
 
       <div
@@ -132,9 +148,7 @@ const Projects = () => {
 
         <li class="list-group-item d-flex justify-content-between align-items-start mt-2 border rounded">
           <div class="ms-2 me-auto">
-            <div class="fw-bold">
-                Convertion App
-            </div>
+            <div class="fw-bold">Convertion App</div>
             Simple app for converting the value of Serbian Dinar to Euro.
             <ul>
               <li>Swift</li>
