@@ -6,7 +6,7 @@ const MyWork = () => {
     <div style={{ height: "500px" }} className="bg-secondary-subtle">
       <div class="container text-center" style={{paddingTop: '3rem'}}>
         <div class="row">
-          <div className="col mb-5 fs-1">My Projects</div>
+          <div className="col mb-5 fs-1">My Work</div>
           <div class="row">
             <GiLaptop style={{ fontSize: "10rem", marginLeft: "10px" }} />
           </div>
