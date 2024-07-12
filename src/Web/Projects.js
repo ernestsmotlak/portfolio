@@ -28,7 +28,9 @@ const Projects = () => {
               <li>Bootstrap</li>
             </ul>
           </div>
-          <FaGithub className="fs-4 text-success" />
+          <a href="https://github.com/ernestsmotlak/ChatApp">
+            <FaGithub className="fs-4 text-black" />
+          </a>
         </li>
         <li class="list-group-item d-flex justify-content-between align-items-start mb-2 border rounded">
           <div class="ms-2 me-auto">
@@ -42,7 +44,9 @@ const Projects = () => {
               <li>Bootstrap</li>
             </ul>
           </div>
-          <span class="badge text-bg-primary rounded-pill">14</span>
+          <a href="https://github.com/ernestsmotlak/Timetable">
+            <FaGithub className="fs-4 text-black" />
+          </a>
         </li>
         <li class="list-group-item d-flex justify-content-between align-items-start mb-2 border rounded">
           <div class="ms-2 me-auto">
@@ -56,7 +60,10 @@ const Projects = () => {
               <li>Bootstrap</li>
             </ul>
           </div>
-          <span class="badge text-bg-primary rounded-pill">14</span>
+          <a href="https://github.com/ernestsmotlak/To-Do-App">
+            <FaGithub className="fs-4 text-black" />
+          </a>
+          
         </li>
         <li class="list-group-item d-flex justify-content-between align-items-start mb-2 border rounded">
           <div class="ms-2 me-auto">
@@ -69,7 +76,9 @@ const Projects = () => {
               <li>Bootstrap</li>
             </ul>
           </div>
-          <span class="badge text-bg-primary rounded-pill">14</span>
+          <a href="https://github.com/ernestsmotlak/Rock-Paper-Scissors">
+            <FaGithub className="fs-4 text-black" />
+          </a>
         </li>
       </ol>
 
@@ -99,7 +108,9 @@ const Projects = () => {
               <li>Bootstrap</li>
             </ul>
           </div>
-          <span class="badge text-bg-primary rounded-pill">14</span>
+          <a href="https://github.com/ernestsmotlak/Weather-Api-App">
+            <FaGithub className="fs-4 text-black" />
+          </a>
         </li>
         <li class="list-group-item d-flex justify-content-between align-items-start">
           <div class="ms-2 me-auto">
@@ -116,7 +127,9 @@ const Projects = () => {
               </li>
             </ul>
           </div>
-          <span class="badge text-bg-primary rounded-pill">14</span>
+          <a href="https://github.com/ernestsmotlak/SmallRandomProjects">
+            <FaGithub className="fs-4 text-black" />
+          </a>
         </li>
       </ol>
 
@@ -143,7 +156,9 @@ const Projects = () => {
               <li>Python</li>
             </ul>
           </div>
-          <span class="badge text-bg-primary rounded-pill">14</span>
+          <a href="https://github.com/ernestsmotlak/Diploma">
+            <FaGithub className="fs-4 text-black" />
+          </a>
         </li>
 
         <li class="list-group-item d-flex justify-content-between align-items-start mt-2 border rounded">
@@ -154,7 +169,9 @@ const Projects = () => {
               <li>Swift</li>
             </ul>
           </div>
-          <span class="badge text-bg-primary rounded-pill">14</span>
+          <a href="https://github.com/ernestsmotlak/DinToEuroSwiftApp">
+            <FaGithub className="fs-4 text-black" />
+          </a>
         </li>
       </ol>
     </div>
