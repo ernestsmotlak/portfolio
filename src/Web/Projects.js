@@ -9,6 +9,7 @@ const Projects = () => {
         style={{ marginTop: "4rem", marginBottom: "1rem" }}
       >
         FULL STACK PROJECTS
+        <hr class="border border-secondary border-2 opacity-50 mx-auto w-25"></hr>
       </div>
       <br />
       <ol
@@ -84,9 +85,10 @@ const Projects = () => {
 
       <div
         className="fs-2 text-center"
-        style={{ marginTop: "5rem", marginBottom: "2rem" }}
+        style={{ marginTop: "4rem", marginBottom: "1rem" }}
       >
         FRONTEND PROJECTS
+        <hr class="border border-secondary border-2 opacity-50 mx-auto w-25"></hr>
       </div>
       <br />
       <ol
@@ -135,9 +137,10 @@ const Projects = () => {
 
       <div
         className="fs-2 text-center"
-        style={{ marginTop: "5rem", marginBottom: "2rem" }}
+        style={{ marginTop: "4rem", marginBottom: "1rem" }}
       >
         OTHER
+        <hr class="border border-secondary border-2 opacity-50 mx-auto" style={{width: '9rem'}}></hr>
       </div>
       <br />
       <ol

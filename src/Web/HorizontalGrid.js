@@ -8,10 +8,13 @@ import { IoLogoNodejs } from "react-icons/io5";
 const HorizontalGrid = () => {
   return (
     <div
-      style={{ height: "600px", paddingTop: "5rem" }}
+      style={{ paddingTop: "3rem", marginBottom: "4rem" }}
       //   className="bg-info-subtle"
     >
-      Technologies
+      <div className="fs-2 text-center">
+        TECH STACK
+        <hr class="border border-secondary border-2 opacity-50 mx-auto w-25 mb-4"></hr>
+      </div>
       <div
         class="container text-center border w-75"
         // style={{ height: "300px", marginTop: "2rem" }}
