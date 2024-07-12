@@ -1,5 +1,7 @@
 import React from "react";
 import { FaGithub } from "react-icons/fa";
+import { FaGithubSquare } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 
 const Footer = () => {
   return (
@@ -15,12 +17,7 @@ const Footer = () => {
           borderRadius: "5px",
         }}
       >
-       <div style={{opacity: '0.5'}}>
-       2024 | MADE BY ERNEST SMOTLAK
-       </div>
-        {/* <a href="https://github.com/ernestsmotlak/portfolio">
-          <FaGithub className="fs-4 text-black" />
-        </a> */}
+        <div style={{ opacity: "0.5" }}>2024 | MADE BY ERNEST SMOTLAK</div>
       </div>
     </div>
   );

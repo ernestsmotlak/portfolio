@@ -6,6 +6,7 @@ import HorizontalGrid from "./Web/HorizontalGrid";
 import MyWork from "./Web/MyWork";
 import Projects from "./Web/Projects";
 import VerticalGrid from "./Web/VerticalGrid";
+import WorkWithMe from "./Web/WorkWithMe";
 
 function App() {
   return (
@@ -15,8 +16,9 @@ function App() {
       <VerticalGrid />
       <HorizontalGrid />
       <MyWork />
-      <Projects />
-      <Footer/>
+      <Projects /><hr className="mx-auto" style={{width: '80%'}}/>
+      <WorkWithMe />
+      <Footer />
     </div>
   );
 }
