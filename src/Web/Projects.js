@@ -6,7 +6,7 @@ const Projects = () => {
     <div>
       <div
         className="fs-2 text-center"
-        style={{ marginTop: "5rem", marginBottom: "2rem" }}
+        style={{ marginTop: "4rem", marginBottom: "1rem" }}
       >
         FULL STACK PROJECTS
       </div>
