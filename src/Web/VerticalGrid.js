@@ -1,17 +1,22 @@
 import React from "react";
+import { FaGithubSquare } from "react-icons/fa";
+import { FaLinkedin } from "react-icons/fa";
 
 const VerticalGrid = () => {
   return (
     <div
       style={{
         width: "100%",
-        height: "600px",
         margin: "0 auto",
         paddingTop: "5rem",
+        paddingBottom: "6rem",
       }}
-      className="bg-secondary"
+      className="bg-secondary-subtle"
     >
-      <div className="container text-center bg-primary-subtle pb-3">
+      <div
+        className="container text-center pb-3"
+        style={{ backgroundColor: "#C0C0C0" }}
+      >
         <div className="row">
           <div className="col">
             <img
@@ -23,7 +28,10 @@ const VerticalGrid = () => {
               }}
               src="https://images.unsplash.com/photo-1604162953277-caf22e545661?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
             ></img>
-            <hr style={{ margin: "0 auto" }} className="w-25 mt-2"></hr>
+            <hr
+              style={{ margin: "0 auto" }}
+              className="w-25 mt-2 border-3 mb-2"
+            ></hr>
           </div>
         </div>
         <div className="row">
@@ -31,11 +39,21 @@ const VerticalGrid = () => {
             <div className="fs-3">Ernest Smotlak</div>
           </div>
         </div>
-        <div className="row">
-          <div className="col">Grid of 3 icons</div>
+        <div class="row mb-2">
+          <div class="col">
+            <a href="https://github.com/ernestsmotlak">
+              <FaGithubSquare className="fs-1 text-black" />
+            </a>
+            <a
+              href="https://www.linkedin.com/in/ernest-smotlak"
+              className="ms-2"
+            >
+              <FaLinkedin className="fs-1 text-black" />
+            </a>
+          </div>
         </div>
         <div className="row">
-          <div className="col">
+          <div className="col mb-4">
             Lorem Ipsilum Lorem Ipsilum Lorem Ipsilum Lorem Ipsilum <br></br>
             Lorem Ipsilum Lorem Ipsilum Lorem Ipsilum Lorem Ipsilum <br></br>
             Lorem Ipsilum Lorem Ipsilum Lorem Ipsilum Lorem Ipsilum
