@@ -1,6 +1,7 @@
 import React from "react";
 import { FaGithubSquare } from "react-icons/fa";
 import { FaLinkedin } from "react-icons/fa";
+import roundPhoto from "../Profilna (1).png";
 
 const VerticalGrid = () => {
   return (
@@ -18,15 +19,16 @@ const VerticalGrid = () => {
         style={{ backgroundColor: "#C0C0C0" }}
       >
         <div className="row">
-          <div className="col">
+          <div className="col mt-4">
             <img
               style={{
-                borderRadius: "50%",
-                height: "200px",
-                width: "200px",
+                height: "300px",
+                width: "300px",
                 marginTop: "10px",
+                borderRadius: '50%',
+                border: '1px solid gray'
               }}
-              src="https://images.unsplash.com/photo-1604162953277-caf22e545661?q=80&w=2787&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+              src={roundPhoto}
             ></img>
             <hr
               style={{ margin: "0 auto" }}

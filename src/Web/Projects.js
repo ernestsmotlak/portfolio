@@ -140,7 +140,7 @@ const Projects = () => {
         style={{ marginTop: "4rem", marginBottom: "1rem" }}
       >
         OTHER
-        <hr class="border border-secondary border-2 opacity-50 mx-auto" style={{width: '9rem'}}></hr>
+        <hr class="border border-secondary border-2 opacity-50 mx-auto w-25"></hr>
       </div>
       <br />
       <ol
