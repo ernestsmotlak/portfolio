@@ -1,22 +1,22 @@
 import React from "react";
-import { FaGithubSquare } from "react-icons/fa";
-import { FaLinkedin } from "react-icons/fa";
+import { FaGithubSquare, FaLinkedin } from "react-icons/fa";
 import roundPhoto from "../Profilna (1).png";
+import "../Web/VerticalGrid.css";
 
 const VerticalGrid = () => {
   return (
     <div
+      className="background-custom"
       style={{
         width: "100%",
         margin: "0 auto",
         paddingTop: "5rem",
         paddingBottom: "6rem",
       }}
-      className="bg-secondary-subtle"
     >
       <div
         className="container text-center pb-3"
-        style={{ backgroundColor: "#C0C0C0" }}
+        style={{ backgroundColor: "#f2f2f2" }}
       >
         <div className="row">
           <div className="col mt-4">
@@ -25,10 +25,11 @@ const VerticalGrid = () => {
                 height: "300px",
                 width: "300px",
                 marginTop: "10px",
-                borderRadius: '50%',
-                border: '1px solid gray'
+                borderRadius: "50%",
+                border: "1px solid gray",
               }}
               src={roundPhoto}
+              alt="Profile"
             ></img>
             <hr
               style={{ margin: "0 auto" }}
@@ -41,8 +42,8 @@ const VerticalGrid = () => {
             <div className="fs-3">Ernest Smotlak</div>
           </div>
         </div>
-        <div class="row mb-2">
-          <div class="col">
+        <div className="row mb-2">
+          <div className="col">
             <a href="https://github.com/ernestsmotlak">
               <FaGithubSquare className="fs-1 text-black" />
             </a>

@@ -1,11 +1,31 @@
-import React from "react";
+import React, { useState, useEffect } from "react";
 
 const Navbar = () => {
+  const [isFixed, setIsFixed] = useState(false);
+
+  useEffect(() => {
+    const handleScroll = () => {
+      if (window.scrollY > 75) {
+        setIsFixed(true);
+      } else {
+        setIsFixed(false);
+      }
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
+
   return (
     <div>
       <nav
-        className="navbar navbar-expand-lg bg-body-tertiary border"
-        style={{ height: "75px" }}
+        className={`navbar navbar-expand-lg bg-body-tertiary border ${
+          isFixed ? "fixed-top" : ""
+        }`}
+        style={{ height: "75px", width: "100%" }}
       >
         <div className="container-fluid d-flex justify-content-center">
           <button
