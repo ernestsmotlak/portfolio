@@ -45,7 +45,7 @@ const Navbar = () => {
           >
             <ul className="navbar-nav ps-4 pe-4 fs-5">
               <a className="nav-link active" href="#">
-                Description
+                Description!
               </a>
               <li className="nav-item ps-4 pe-4">
                 <a className="nav-link active" aria-current="page" href="#">
