@@ -1,8 +1,25 @@
 import React, { useState, useEffect } from "react";
-import '../Mobile/Navbar.css';
+import "../Mobile/Navbar.css";
 
 const Navbar = () => {
-  const [btnLocation, setbtnLocation] = useState("");
+  const [activeButton, setActiveButton] = useState("");
+
+  const checkLocation = () => {
+    const scrollPosition = window.scrollY;
+    if (scrollPosition < 710) {
+      setActiveButton("description");
+    } else if (scrollPosition >= 710 && scrollPosition < 1345) {
+      setActiveButton("techStack");
+    } else if (scrollPosition >= 1345 && scrollPosition < 2000) {
+      // Adjust the value 2000 to your actual contact me position
+      setActiveButton("myWork");
+    } else if (scrollPosition >= 2000) {
+      // Adjust the value 2000 to your actual contact me position
+      setActiveButton("contactMe");
+    } else {
+      setActiveButton("");
+    }
+  };
 
   const scroll = (value) => (event) => {
     event.preventDefault();
@@ -11,6 +28,7 @@ const Navbar = () => {
 
   useEffect(() => {
     const handleScroll = () => {
+      checkLocation();
       console.log(window.scrollY); // Log the current scroll position to the console
     };
 
@@ -24,7 +42,7 @@ const Navbar = () => {
   return (
     <div>
       <nav
-        className="navbar navbar-expand-lg bg-body-tertiary fixed-top"
+        className="navbar navbar-expand-lg bg-body-tertiary fixed-top border"
         style={{ height: "75px", width: "100%" }}
       >
         <div className="container-fluid d-flex justify-content-center">
@@ -44,35 +62,54 @@ const Navbar = () => {
             id="navbarSupportedContent"
           >
             <ul className="navbar-nav ps-4 pe-4 fs-5">
-              <a className="nav-link active" href="" onClick={scroll(0)}>
-                Description!
-              </a>
               <li className="nav-item ps-4 pe-4">
-                <a className="nav-link active" href="" onClick={scroll(710)}>
+                <a
+                  className={`nav-link active ${
+                    activeButton === "description"
+                      ? "custom-navbar-btn-clicked"
+                      : ""
+                  }`}
+                  href=""
+                  onClick={scroll(0)}
+                >
+                  Description
+                </a>
+              </li>
+              <li className="nav-item ps-4 pe-4">
+                <a
+                  className={`nav-link active ${
+                    activeButton === "techStack"
+                      ? "custom-navbar-btn-clicked"
+                      : ""
+                  }`}
+                  href=""
+                  onClick={scroll(710)}
+                >
                   Tech Stack
                 </a>
               </li>
               <li className="nav-item ps-4 pe-4">
-                <a className="nav-link active" href="" onClick={scroll(1345)}>
+                <a
+                  className={`nav-link active ${
+                    activeButton === "myWork" ? "custom-navbar-btn-clicked" : ""
+                  }`}
+                  href=""
+                  onClick={scroll(1345)}
+                >
                   My Work
                 </a>
               </li>
               <li className="nav-item ps-4 pe-4">
                 <a
-                  className="nav-link active"
+                  className={`nav-link active ${
+                    activeButton === "contactMe"
+                      ? "custom-navbar-btn-clicked"
+                      : ""
+                  }`}
                   href=""
                   onClick={scroll(document.body.scrollHeight)}
                 >
                   Contact Me
-                </a>
-              </li>
-              <li className="nav-item ps-4 pe-4">
-                <a
-                  className="nav-link active custom-navbar-btn"
-                  href=""
-                  onClick={scroll(document.body.scrollHeight)}
-                >
-                  Test location btn
                 </a>
               </li>
             </ul>

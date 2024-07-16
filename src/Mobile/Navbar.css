@@ -16,7 +16,7 @@
 }
 
 /* Hover state styles */
-.nav-link.active.custom-navbar-btn:hover {
+.nav-link.active.custom-navbar-btn-clicked {
   background-color: #5a5a5b;
   color: #fff;
   border-radius: 3px;
