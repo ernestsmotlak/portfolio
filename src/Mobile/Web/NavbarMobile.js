@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from "react";
-import "../Mobile/Navbar.css";
+import "../../Mobile/Navbar.css";
 
-const Navbar = () => {
+const NavbarMobile = () => {
   const [activeButton, setActiveButton] = useState("");
 
   const checkLocation = () => {
@@ -73,7 +73,7 @@ const Navbar = () => {
                   href=""
                   onClick={scroll(0)}
                 >
-                  Description
+                  Mobile!!!
                 </a>
               </li>
               <li className="nav-item ps-4 pe-4">
@@ -121,4 +121,4 @@ const Navbar = () => {
   );
 };
 
-export default Navbar;
+export default NavbarMobile;
