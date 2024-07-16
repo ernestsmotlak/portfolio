@@ -11,7 +11,7 @@ const VerticalGrid = () => {
         width: "100%",
         margin: "0 auto",
         paddingTop: "5rem",
-        paddingBottom: "6rem",
+        paddingBottom: "5rem",
       }}
     >
       <div
