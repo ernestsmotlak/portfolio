@@ -10,7 +10,7 @@ const VerticalGrid = () => {
       style={{
         width: "100%",
         margin: "0 auto",
-        paddingTop: "5rem",
+        paddingTop: "9rem",
         paddingBottom: "5rem",
       }}
     >
