@@ -29,7 +29,8 @@ const Navbar = () => {
   useEffect(() => {
     const handleScroll = () => {
       checkLocation();
-      console.log(window.scrollY); // Log the current scroll position to the console
+      // console.log(window.scrollY); 
+      // Log the current scroll position to the console
     };
 
     window.addEventListener("scroll", handleScroll);
