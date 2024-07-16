@@ -1,10 +1,25 @@
 import React, { useState, useEffect } from "react";
+import '../Mobile/Navbar.css';
 
 const Navbar = () => {
+  const [btnLocation, setbtnLocation] = useState("");
+
   const scroll = (value) => (event) => {
     event.preventDefault();
     window.scrollTo({ top: value, behavior: "smooth" });
   };
+
+  useEffect(() => {
+    const handleScroll = () => {
+      console.log(window.scrollY); // Log the current scroll position to the console
+    };
+
+    window.addEventListener("scroll", handleScroll);
+
+    return () => {
+      window.removeEventListener("scroll", handleScroll);
+    };
+  }, []);
 
   return (
     <div>
@@ -29,31 +44,35 @@ const Navbar = () => {
             id="navbarSupportedContent"
           >
             <ul className="navbar-nav ps-4 pe-4 fs-5">
-              <a className="nav-link active" href="#" onClick={scroll(0)}>
+              <a className="nav-link active" href="" onClick={scroll(0)}>
                 Description!
               </a>
               <li className="nav-item ps-4 pe-4">
-                <a
-                  className="nav-link active"
-                  aria-current="page"
-                  href="#"
-                  onClick={scroll(710)}
-                >
+                <a className="nav-link active" href="" onClick={scroll(710)}>
                   Tech Stack
                 </a>
               </li>
               <li className="nav-item ps-4 pe-4">
-                <a className="nav-link active" href="#" onClick={scroll(1345)}>
+                <a className="nav-link active" href="" onClick={scroll(1345)}>
                   My Work
                 </a>
               </li>
-              <li className="nav-item bg-secondary-subtle ps-4 pe-4">
+              <li className="nav-item ps-4 pe-4">
                 <a
                   className="nav-link active"
-                  href="#"
+                  href=""
                   onClick={scroll(document.body.scrollHeight)}
                 >
                   Contact Me
+                </a>
+              </li>
+              <li className="nav-item ps-4 pe-4">
+                <a
+                  className="nav-link active custom-navbar-btn"
+                  href=""
+                  onClick={scroll(document.body.scrollHeight)}
+                >
+                  Test location btn
                 </a>
               </li>
             </ul>
