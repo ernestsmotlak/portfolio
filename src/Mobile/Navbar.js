@@ -19,6 +19,11 @@ const Navbar = () => {
     };
   }, []);
 
+  const scroll = (value) => (event) => {
+    event.preventDefault();
+    window.scrollTo({ top: value, behavior: "smooth" });
+  };
+
   return (
     <div>
       <nav
@@ -44,22 +49,22 @@ const Navbar = () => {
             id="navbarSupportedContent"
           >
             <ul className="navbar-nav ps-4 pe-4 fs-5">
-              <a className="nav-link active" href="#">
+              <a className="nav-link active" href="#" onClick={scroll(85)}>
                 Description!
               </a>
               <li className="nav-item ps-4 pe-4">
                 <a className="nav-link active" aria-current="page" href="#">
-                  Technologies
+                  Tech Stack
                 </a>
               </li>
               <li className="nav-item ps-4 pe-4">
                 <a className="nav-link active" href="#">
-                  Link
+                  My Work
                 </a>
               </li>
               <li className="nav-item bg-secondary-subtle ps-4 pe-4">
                 <a className="nav-link active" href="#">
-                  My Projects
+                  Contact Me
                 </a>
               </li>
             </ul>
