@@ -5,7 +5,7 @@ import { FaLinkedin } from "react-icons/fa";
 const WorkWithMeMobile = () => {
   return (
     <div className="pt-4 pb-2">
-      <div class="container text-center w-25 mb-4">
+      <div class="container text-center mb-4">
         <div className="fs-2 mx-auto">CONTACT ME</div>
         <hr class="border border-secondary border-2 opacity-50"></hr>
         <div class="row">

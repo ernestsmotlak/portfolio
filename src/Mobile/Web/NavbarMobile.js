@@ -42,83 +42,10 @@ const NavbarMobile = () => {
   }, []);
 
   return (
-    <div>
-      <nav
-        className="navbar navbar-expand-lg bg-body-tertiary fixed-top border"
-        style={{ height: "75px", width: "100%" }}
-      >
-        <div className="container-fluid d-flex justify-content-center">
-          <button
-            className="navbar-toggler"
-            type="button"
-            onClick={toggleNavbar}
-            aria-controls="navbarSupportedContent"
-            aria-expanded={!navbarCollapsed}
-            aria-label="Toggle navigation"
-          >
-            <span className="navbar-toggler-icon"></span>
-          </button>
-          <div
-            className={`collapse navbar-collapse justify-content-center ${
-              !navbarCollapsed ? "show" : ""
-            }`}
-            id="navbarSupportedContent"
-          >
-            <ul className="navbar-nav ps-4 pe-4 fs-5">
-              <li className="nav-item ps-4 pe-4">
-                <a
-                  className={`nav-link ${
-                    activeButton === "description"
-                      ? "custom-navbar-btn-clicked"
-                      : ""
-                  }`}
-                  href="#"
-                  onClick={scroll(0)}
-                >
-                  Mobile!!!
-                </a>
-              </li>
-              <li className="nav-item ps-4 pe-4">
-                <a
-                  className={`nav-link ${
-                    activeButton === "techStack"
-                      ? "custom-navbar-btn-clicked"
-                      : ""
-                  }`}
-                  href="#"
-                  onClick={scroll(710)}
-                >
-                  Tech Stack
-                </a>
-              </li>
-              <li className="nav-item ps-4 pe-4">
-                <a
-                  className={`nav-link ${
-                    activeButton === "myWork" ? "custom-navbar-btn-clicked" : ""
-                  }`}
-                  href="#"
-                  onClick={scroll(1345)}
-                >
-                  My Work
-                </a>
-              </li>
-              <li className="nav-item ps-4 pe-4">
-                <a
-                  className={`nav-link ${
-                    activeButton === "contactMe"
-                      ? "custom-navbar-btn-clicked"
-                      : ""
-                  }`}
-                  href="#"
-                  onClick={scroll(document.body.scrollHeight)}
-                >
-                  Contact Me
-                </a>
-              </li>
-            </ul>
-          </div>
-        </div>
-      </nav>
+    <div style={{ height: "4rem", border: "2px solid black", backgroundColor: '#E5E5E5' }}>
+      <div className="fs-2 text-center" style={{ marginTop: "0.75rem" }}>
+        PORTFOLIO
+      </div>
     </div>
   );
 };

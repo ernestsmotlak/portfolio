@@ -26,7 +26,7 @@ function App() {
       <WorkWithMe />
       <Footer /> */}
 
-      {/* <NavbarMobile /> */}
+      <NavbarMobile />
       <VerticalGridMobile />
       <HorizontalGridMobile />
       <MyWorkMobile />

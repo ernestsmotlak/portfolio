@@ -16,7 +16,7 @@ const VerticalGridMobile = () => {
     >
       <div
         className="container text-center pb-3"
-        style={{ backgroundColor: "#f2f2f2" }}
+        style={{ backgroundColor: "#f2f2f2", width: '85%' }}
       >
         <div className="row">
           <div className="col mt-4">

@@ -14,7 +14,8 @@ const FooterMobile = () => {
           borderColor: "#cdcccd",
           borderWidth: "1px",
           borderStyle: "solid",
-          borderRadius: "5px",
+          borderTopLeftRadius: '2.5px',
+          borderTopRightRadius: '2.5px'
         }}
       >
         <div style={{ opacity: "0.5" }}>2024 | MADE BY ERNEST SMOTLAK</div>
