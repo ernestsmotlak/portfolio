@@ -15,7 +15,7 @@ const VerticalGrid = () => {
       }}
     >
       <div
-        className="container text-center pb-3"
+        className="container text-center pb-3 border rounded"
         style={{ backgroundColor: "#f2f2f2" }}
       >
         <div className="row">

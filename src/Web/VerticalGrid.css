@@ -1,4 +1,4 @@
-.background-custom {
+.background-custom-inner {
   background: linear-gradient(-45deg, #0000 1.3%, #e2e3e5 0 32%, #0000 0),
     linear-gradient(45deg, #0000 48%, #000000 0 52%, #0000 0),
     linear-gradient(45deg, #0000 1.3%, #e2e3e5 0 32%, #0000 0) calc(24px / 2)
@@ -6,3 +6,24 @@
     linear-gradient(-45deg, #0000 48%, #000000 0 52%, #0000 0) #e2e3e5;
   background-size: calc(2 * 24px) 24px, 24px 24px;
 }
+
+.background-custom {
+  background-image: linear-gradient(
+    to left,
+    #000000,
+    #3b3b3b,
+    #777777,
+    #b9b9b9,
+    #ffffff
+  );
+  /* background-image: linear-gradient(
+    to left,
+    #363636,
+    #636363,
+    #949494,
+    #c8c8c8,
+    #ffffff
+  ); */
+}
+
+

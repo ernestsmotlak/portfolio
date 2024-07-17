@@ -8,7 +8,9 @@ import { IoLogoNodejs } from "react-icons/io5";
 const HorizontalGrid = () => {
   return (
     <div
-      style={{ paddingTop: "3rem", marginBottom: "4rem" }}
+      style={{ paddingTop: "3rem",
+        //  marginBottom: "4rem",
+        paddingBottom: '4rem' }}
       //   className="bg-info-subtle"
     >
       <div className="fs-2 text-center">
