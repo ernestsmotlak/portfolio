@@ -21,21 +21,21 @@ const HorizontalGridMobile = () => {
       >
         <div class="row" style={{ marginTop: "2rem" }}>
           <div class="col">
-            <TiHtml5 style={{ width: "200px", height: "200px" }} />
+            <TiHtml5 style={{ width: "150px", height: "150px" }} />
           </div>
           <div class="col">
-            <BiSolidFileCss style={{ width: "175px", height: "200px" }} />
+            <BiSolidFileCss style={{ width: "150px", height: "150px" }} />
           </div>
           <div class="col">
-            <RiJavascriptFill style={{ width: "175px", height: "200px" }} />
+            <RiJavascriptFill style={{ width: "150px", height: "150px" }} />
           </div>
         </div>
         <div class="row w-75" style={{ marginTop: "2rem", margin: "0 auto" }}>
           <div class="col">
-            <FaReact style={{ width: "175px", height: "200px" }} />
+            <FaReact style={{ width: "150px", height: "150px" }} />
           </div>
           <div class="col">
-            <IoLogoNodejs style={{ width: "175px", height: "200px" }} />
+            <IoLogoNodejs style={{ width: "150px", height: "150px" }} />
           </div>
         </div>
       </div>

@@ -6,7 +6,7 @@ const ProjectsMobile = () => {
     <div>
       <div
         className="fs-2 text-center"
-        style={{ marginTop: "4rem", marginBottom: "1rem" }}
+        style={{ marginTop: "3rem", marginBottom: "1rem" }}
       >
         FULL STACK PROJECTS
         <hr class="border border-secondary border-2 opacity-50 mx-auto w-25"></hr>
@@ -14,7 +14,7 @@ const ProjectsMobile = () => {
       <br />
       <ol
         class="list-group list-group-numbered mx-auto"
-        style={{ width: "30rem" }}
+        style={{ width: "21rem" }}
       >
         <li class="list-group-item d-flex justify-content-between align-items-start mb-2 border rounded">
           <div class="ms-2 me-auto">
@@ -66,7 +66,7 @@ const ProjectsMobile = () => {
           </a>
           
         </li>
-        <li class="list-group-item d-flex justify-content-between align-items-start mb-2 border rounded">
+        <li class="list-group-item d-flex justify-content-between align-items-start mb-2 mt-2 border rounded">
           <div class="ms-2 me-auto">
             <div class="fw-bold">Rock Paper Scissors Game</div>A simple Rock
             Paper Scissors game made with Socket.io.
@@ -93,9 +93,9 @@ const ProjectsMobile = () => {
       <br />
       <ol
         class="list-group list-group-numbered mx-auto"
-        style={{ width: "30rem" }}
+        style={{ width: "21rem" }}
       >
-        <li class="list-group-item d-flex justify-content-between align-items-start">
+        <li class="list-group-item d-flex justify-content-between align-items-start mb-2 border rounded">
           <div class="ms-2 me-auto">
             <div class="fw-bold">
               <a href="https://weather-api-app-orpin.vercel.app/">
@@ -114,7 +114,7 @@ const ProjectsMobile = () => {
             <FaGithub className="fs-4 text-black" />
           </a>
         </li>
-        <li class="list-group-item d-flex justify-content-between align-items-start">
+        <li class="list-group-item d-flex justify-content-between align-items-start border rounded">
           <div class="ms-2 me-auto">
             <div class="fw-bold">
               <a href="http://84.247.184.37:3010/TimetableClean">
@@ -145,9 +145,9 @@ const ProjectsMobile = () => {
       <br />
       <ol
         class="list-group list-group-numbered mx-auto mb-5"
-        style={{ width: "30rem" }}
+        style={{ width: "21rem" }}
       >
-        <li class="list-group-item d-flex justify-content-between align-items-start">
+        <li class="list-group-item d-flex justify-content-between align-items-start border rounded">
           <div class="ms-2 me-auto">
             <div class="fw-bold">
               Sentimental analysis of tweets and short texts.

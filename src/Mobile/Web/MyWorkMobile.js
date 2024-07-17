@@ -14,7 +14,7 @@ const MyWorkMobile = () => {
             ></hr>
           </div>
           <div class="row">
-            <GiLaptop style={{ fontSize: "10rem", marginLeft: "10px" }} />
+            <GiLaptop style={{ fontSize: "8.5rem", marginLeft: "10px" }} />
           </div>
         </div>
         <div class="row">

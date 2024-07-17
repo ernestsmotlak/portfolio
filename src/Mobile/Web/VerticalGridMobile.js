@@ -10,8 +10,8 @@ const VerticalGridMobile = () => {
       style={{
         width: "100%",
         margin: "0 auto",
-        paddingTop: "9rem",
-        paddingBottom: "5rem",
+        paddingTop: "4rem",
+        paddingBottom: "4rem",
       }}
     >
       <div
@@ -22,8 +22,8 @@ const VerticalGridMobile = () => {
           <div className="col mt-4">
             <img
               style={{
-                height: "300px",
-                width: "300px",
+                height: "200px",
+                width: "200px",
                 marginTop: "10px",
                 borderRadius: "50%",
                 border: "1px solid gray",
@@ -33,7 +33,7 @@ const VerticalGridMobile = () => {
             ></img>
             <hr
               style={{ margin: "0 auto" }}
-              className="w-25 mt-2 border-3 mb-2"
+              className="w-50 mt-2 border-3 mb-2"
             ></hr>
           </div>
         </div>
@@ -56,7 +56,7 @@ const VerticalGridMobile = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col mb-4">
+          <div className="col mb-4" style={{fontSize: '17.5px'}}>
             Lorem Ipsilum Lorem Ipsilum Lorem Ipsilum Lorem Ipsilum <br></br>
             Lorem Ipsilum Lorem Ipsilum Lorem Ipsilum Lorem Ipsilum <br></br>
             Lorem Ipsilum Lorem Ipsilum Lorem Ipsilum Lorem Ipsilum
