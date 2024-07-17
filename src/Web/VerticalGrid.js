@@ -12,11 +12,16 @@ const VerticalGrid = () => {
         margin: "0 auto",
         paddingTop: "9rem",
         paddingBottom: "5rem",
+        border: '1px solid gray'
       }}
     >
       <div
-        className="container text-center pb-3 border rounded"
-        style={{ backgroundColor: "#f2f2f2" }}
+        className="container text-center pb-3"
+        style={{
+          backgroundColor: "#f2f2f2",
+          border: "1px solid gray",
+          borderRadius: "7.5px",
+        }}
       >
         <div className="row">
           <div className="col mt-4">
