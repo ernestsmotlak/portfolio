@@ -42,8 +42,8 @@ const NavbarMobile = () => {
   }, []);
 
   return (
-    <div style={{ height: "4rem", border: "2px solid black", backgroundColor: '#E5E5E5' }}>
-      <div className="fs-2 text-center" style={{ marginTop: "0.75rem" }}>
+    <div style={{ height: "5rem"}} className="bg-body-tertiary border">
+      <div className="fs-1 text-center" style={{ marginTop: "1.25rem" }}>
         PORTFOLIO
       </div>
     </div>
