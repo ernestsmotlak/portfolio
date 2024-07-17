@@ -16,7 +16,7 @@ const VerticalGridMobile = () => {
     >
       <div
         className="container text-center pb-3"
-        style={{ backgroundColor: "#f2f2f2", width: '85%' }}
+        style={{ backgroundColor: "#f2f2f2", width: "85%", border: '1px solid gray', borderRadius: '7.5px' }}
       >
         <div className="row">
           <div className="col mt-4">
@@ -56,7 +56,7 @@ const VerticalGridMobile = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col mb-4" style={{fontSize: '17.5px'}}>
+          <div className="col mb-4" style={{ fontSize: "17.5px" }}>
             Lorem Ipsilum Lorem Ipsilum Lorem Ipsilum Lorem Ipsilum <br></br>
             Lorem Ipsilum Lorem Ipsilum Lorem Ipsilum Lorem Ipsilum <br></br>
             Lorem Ipsilum Lorem Ipsilum Lorem Ipsilum Lorem Ipsilum
