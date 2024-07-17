@@ -18,7 +18,7 @@ const HorizontalGrid = () => {
         <hr class="border border-secondary border-2 opacity-50 mx-auto w-25 mb-4"></hr>
       </div>
       <div
-        class="container text-center border w-75"
+        class="container text-center border rounded w-75"
         // style={{ height: "300px", marginTop: "2rem" }}
       >
         <div class="row" style={{ marginTop: "2rem" }}>
