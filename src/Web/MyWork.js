@@ -3,7 +3,8 @@ import { GiLaptop } from "react-icons/gi";
 
 const MyWork = () => {
   return (
-    <div className="bg-secondary-subtle pb-5">
+    <div className="myWork-background pb-5">
+      {/* styles in verticalgrid.css */}
       <div class="container text-center" style={{ paddingTop: "3rem" }}>
         <div class="row">
           <div className="col mb-4 fs-2">

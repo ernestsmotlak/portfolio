@@ -19,7 +19,8 @@ const Projects = () => {
         <li class="list-group-item d-flex justify-content-between align-items-start mb-2 border rounded">
           <div class="ms-2 me-auto">
             <div class="fw-bold">
-              <a href="http://84.247.184.37:3021/">Chat App</a>
+              <a className='custom-link' href="http://84.247.184.37:3021/">Chat App</a>
+              {/* styles in verticalgrid.css */}
             </div>
             Dynamic real-time messaging app.
             <ul>
@@ -36,7 +37,7 @@ const Projects = () => {
         <li class="list-group-item d-flex justify-content-between align-items-start mb-2 border rounded">
           <div class="ms-2 me-auto">
             <div class="fw-bold">
-              <a href="http://84.247.184.37:3002/">Timetable App</a>
+              <a className='custom-link' href="http://84.247.184.37:3002/">Timetable App</a>
             </div>
             Bus transport app for the city of Koper.
             <ul>
@@ -52,7 +53,7 @@ const Projects = () => {
         <li class="list-group-item d-flex justify-content-between align-items-start mb-2 border rounded">
           <div class="ms-2 me-auto">
             <div class="fw-bold">
-              <a href="http://84.247.184.37:3006/">To Do App</a>
+              <a className='custom-link' href="http://84.247.184.37:3006/">To Do App</a>
             </div>
             Task management tool for organizing your daily tasks.
             <ul>
@@ -98,12 +99,12 @@ const Projects = () => {
         <li class="list-group-item d-flex justify-content-between align-items-start">
           <div class="ms-2 me-auto">
             <div class="fw-bold">
-              <a href="https://weather-api-app-orpin.vercel.app/">
+              <a className='custom-link' href="https://weather-api-app-orpin.vercel.app/">
                 Weather App
               </a>
             </div>
             A simple weather app made with&nbsp;
-            <a href="https://www.weatherapi.com/">Weather api.</a>
+            <a className='custom-link' href="https://www.weatherapi.com/">Weather api.</a>
             <ul>
               <li>React</li>
               <li>Node.js</li>
@@ -117,7 +118,7 @@ const Projects = () => {
         <li class="list-group-item d-flex justify-content-between align-items-start">
           <div class="ms-2 me-auto">
             <div class="fw-bold">
-              <a href="http://84.247.184.37:3010/TimetableClean">
+              <a className='custom-link' href="http://84.247.184.37:3010/TimetableClean">
                 Calculation App
               </a>
             </div>
