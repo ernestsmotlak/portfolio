@@ -6,3 +6,11 @@
     linear-gradient(-45deg, #0000 48%, #000000 0 52%, #0000 0) #e2e3e5;
   background-size: calc(2 * 24px) 24px, 24px 24px;
 } */
+
+.myWork-background-mobile {
+  background-image: linear-gradient(to bottom, #e1e1e1, #dadada, #d3d3d3, #cdcdcd, #c6c6c6);
+}
+
+.background-custom-mobile {
+  background-image: linear-gradient(to right, #efefef, #dadada, #c5c5c5, #b0b0b0, #9c9c9c);
+}

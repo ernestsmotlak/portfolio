@@ -3,7 +3,7 @@ import { GiLaptop } from "react-icons/gi";
 
 const MyWorkMobile = () => {
   return (
-    <div className="myWork-background pb-5">
+    <div className="myWork-background-mobile pb-5">
       <div class="container text-center" style={{ paddingTop: "3rem" }}>
         <div class="row">
           <div className="col mb-4 fs-2">

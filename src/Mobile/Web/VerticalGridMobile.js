@@ -6,7 +6,7 @@ import "../Web/VerticalGridMobile.css";
 const VerticalGridMobile = () => {
   return (
     <div
-      className="background-custom"
+      className="background-custom-mobile"
       style={{
         width: "100%",
         margin: "0 auto",
@@ -16,7 +16,7 @@ const VerticalGridMobile = () => {
     >
       <div
         className="container text-center pb-3"
-        style={{ backgroundColor: "#f2f2f2", width: "85%", border: '1px solid gray', borderRadius: '7.5px' }}
+        style={{ backgroundColor: "#f2f2f2", width: "85%", borderRadius: '7.5px' }}
       >
         <div className="row">
           <div className="col mt-4">
