@@ -16,7 +16,11 @@ const VerticalGridMobile = () => {
     >
       <div
         className="container text-center pb-3"
-        style={{ backgroundColor: "#f2f2f2", width: "85%", borderRadius: '7.5px' }}
+        style={{
+          backgroundColor: "#f2f2f2",
+          width: "85%",
+          borderRadius: "7.5px",
+        }}
       >
         <div className="row">
           <div className="col mt-4">
@@ -56,10 +60,15 @@ const VerticalGridMobile = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col mb-4" style={{ fontSize: "17.5px" }}>
-            Lorem Ipsilum Lorem Ipsilum Lorem Ipsilum Lorem Ipsilum <br></br>
-            Lorem Ipsilum Lorem Ipsilum Lorem Ipsilum Lorem Ipsilum <br></br>
-            Lorem Ipsilum Lorem Ipsilum Lorem Ipsilum Lorem Ipsilum
+          <div
+            className="col mb-4"
+            style={{ fontSize: "17.5px", color: "#595959" }}
+          >
+            An aspiring web developer with a love for building both frontend and
+            backend applications.
+            <br />I am currently learning React and Node.js as I am eager to
+            learn as much as possible about web development and continue
+            developing my skills.
           </div>
         </div>
       </div>

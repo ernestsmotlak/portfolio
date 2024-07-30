@@ -11,7 +11,7 @@ const VerticalGrid = () => {
         width: "100%",
         margin: "0 auto",
         paddingTop: "9rem",
-        paddingBottom: "5rem"
+        paddingBottom: "5rem",
       }}
     >
       <div
@@ -60,10 +60,12 @@ const VerticalGrid = () => {
           </div>
         </div>
         <div className="row">
-          <div className="col mb-4">
-            Lorem Ipsilum Lorem Ipsilum Lorem Ipsilum Lorem Ipsilum <br></br>
-            Lorem Ipsilum Lorem Ipsilum Lorem Ipsilum Lorem Ipsilum <br></br>
-            Lorem Ipsilum Lorem Ipsilum Lorem Ipsilum Lorem Ipsilum
+          <div className="col mb-4 fs-5" style={{color: '#595959'}}>
+            An aspiring web developer with a love for building both
+            frontend and backend applications. <br></br>I am currently learning
+            React and Node.js as I am eager to learn as much as possible about web
+            development <br></br>
+            and continue developing my skills.
           </div>
         </div>
       </div>
